@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1060%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1061%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1920 0L1679.94 0L1920 255.6z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1679.94 0L1920 255.6L1920 597.82L975.7800000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M975.78 0L1920 597.82L1920 717.9300000000001L843.27 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M843.27 0L1920 717.9300000000001L1920 931.57L247.39 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 1080L8.69 1080L0 603.1800000000001z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 603.1800000000001L8.69 1080L46.21 1080L0 466.4000000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 466.4L46.21 1080L784.13 1080L0 234.21999999999997z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 234.22000000000003L784.13 1080L1403.6599999999999 1080L0 231.79000000000002z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1060'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='10.94%25' y1='-19.44%25' x2='89.06%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1061'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(33%2c 158%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left--side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left--side img {
+    width: 100%;
+    max-width: 500px;
+    height: auto
+    
+}
+
+.right--side {
+    width: 500px;
+    background-color: #00ff000f;
+    box-shadow: -5px 0px 30px #00ff008d;
+}
+
+.login--area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.login--area h1 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.login--inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+label input {
+    width: 100%;
+    height: 190%;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    outline: 0;
+    border: none;
+}
+
+label input::placeholder {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.user {
+    width: calc(100% - 40px);
+    margin-left: -40px;
+}
+
+label img {
+    width: 40px;
+    cursor: pointer;
+}
+
+button {
+    width: 50%;
+    margin: 25px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.new--acount {
+    width: 100%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.new--acount p {
+    color: #fff;
+    margin: 5px;
+}
+
+.new--acount .criar {
+    color: #0000ff;
+    cursor: pointer;
+}
+
+p {
+    color: #fff;
+}
